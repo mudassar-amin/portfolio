@@ -4,12 +4,35 @@ import { FaGraduationCap, FaBriefcase, FaProjectDiagram, FaTools, FaCertificate,
 const Resume = () => {
   return (
     <section id="resume" className="container mx-auto p-8 bg-white shadow-lg rounded-lg mt-12 space-y-10">
-      <h2 className="text-4xl font-bold text-gray-800 text-center mb-8">Resume</h2>
-      
+      <h4 className="text-4xl font-bold text-gray-800 text-center mb-8">Mudassar Amin (resume)</h4>
+
       {/* Contact Info */}
-      <div className="text-center text-gray-600">
-        <p>+47- 46251080 | mudassaramin93@gmail.com | LinkedIn | GitHub | Navik, Norway (Open to Relocation)</p>
-      </div>
+<div className="text-center text-gray-600 space-y-2">
+  <p>+47- 46251080 | mudassaramin93@gmail.com {" | "}
+  
+    <a
+      href="https://www.linkedin.com/in/your-linkedin-username" // Replace with your actual LinkedIn URL
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      LinkedIn
+    </a> 
+    {" | "}
+    <a
+      href="https://github.com/your-github-username" // Replace with your actual GitHub URL
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-500 hover:underline"
+    >
+      GitHub
+    </a> 
+    {" | "} Navik, Norway (Open to Relocation)
+    </p>
+</div>
+
+      
+      
       
       {/* Education Section */}
       <div className="border-l-4 border-yellow-400 pl-4 mb-6 space-y-2">
