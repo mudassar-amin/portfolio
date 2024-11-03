@@ -20,8 +20,9 @@ const Header = () => {
         <Link to="/resume" className="hover:text-yellow-300">Resume</Link>
         <Link to="/projects" className="hover:text-yellow-300">Projects</Link>
         <a 
-          href="/path-to-your-resume.pdf" 
-          download 
+          href="https://drive.google.com/file/d/1C44JeUri-Nl1y1YI9xqV0_w5i_G8D3Ad/view?usp=sharing" 
+          target="_blank"
+          rel="noopener noreferrer" 
           className="px-3 py-1 bg-gray-200 text-gray-800 rounded-md font-medium hover:bg-gray-300 transition duration-300"
         >
           Download CV
