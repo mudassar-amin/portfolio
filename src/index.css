@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+@keyframes slideInFromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Add a CSS class for the animation */
+  .slide-in-bottom {
+    animation: slideInFromBottom 0.8s ease-out forwards;
+  }
+  
+
+  /* index.css */
+
+@keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .gradient-background {
+    background: linear-gradient(90deg, #ff7e5f, #feb47b, #86a8e7, #91eae4);
+    background-size: 300% 300%;
+    animation: gradientShift 8s ease infinite;
+  }
+
+  /* index.css */
+
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply the animation to the sections */
+  .slide-in {
+    animation: slideIn 0.8s ease-out forwards;
+  }
+  
